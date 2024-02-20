@@ -229,7 +229,7 @@ function App() {
 
   return (
     <>
-      <div className="wrapper min-w-screen min-h-screen h-full pb-40 bg-checkBackground dark:bg-veryDarkBlue overflow-hidden">
+      <div className="wrapper min-w-screen min-h-screen h-full pb-40 bg-checkBackground dark:bg-veryDarkBlue overflow-hidden flex flex-col justify-center items-center">
         <div className="banner-img">
           {/* desktop banner */}
           <img
@@ -477,6 +477,16 @@ function App() {
             </div>
           </div>
         </div>
+        <p className="flex flex-col md:flex-row justify-center items-center gap-x-3 pt-20 text-darkGrayishBlueLight">
+          Challenged by{" "}
+          <a href="https://frontendmentor.io/" className="text-brightBlue">
+            Frontend Mentor
+          </a>{" "}
+          & Made by{" "}
+          <a href="https://armohanty.com" className="text-brightBlue">
+            Anurag Mohanty
+          </a>
+        </p>
       </div>
     </>
   );
